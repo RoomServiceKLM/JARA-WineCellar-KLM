@@ -30,7 +30,7 @@
 <datalist id="typesOn"><option>Generoso</option><option>Espumoso</option><option>Tinto</option><option>Blanco</option><option>Rosado</option><option>Por copas</option><option>Magnum</option></datalist>
 <datalist id="countries"><option>España</option><option>Francia</option><option>Italia</option><option>Portugal</option><option>Alemania</option><option>Argentina</option><option>Chile</option><option>Estados Unidos</option><option>Nueva Zelanda</option><option>Sudáfrica</option></datalist>
 <script>
-const API_URL='https://script.google.com/macros/s/AKfycbwWg19kLXBNX2YMFl0CbFSWqpqJO3wJjMeBfKw3gNkfOFZIjjtBvnXq3XlQorscnX29Cg/exec';
+const API_URL='https://script.google.com/macros/s/AKfycbyTU_IVjsttwIUTP1VD4zSDsgA0IFSzVi5vf8pfBpPYoglYoNwO7ILD7qGPDGlCea9ZCg/exec';
 const state={data:{on:[],off:[]},orders:{active:null},section:'on',editing:null,generatedAt:null,staff:'',typeFilter:'Blanco'};
 const schemas={
  on:[['type','Tipo','text',1],['origin','Origen / País','text',1],['reference','Referencia','text',1],['name','Nombre','text',1],['vintage','Añada','text'],['area','D.O. / Zona','text'],['grapes','Uvas','text'],['tasting','Notas de cata','textarea'],['cost','Coste por botella','number'],['price','PVP Carta','number'],['profit','Beneficio por botella','text',0,1],['marginCost','Margen s/coste','text',0,1],['marginSale','Margen s/venta','text',0,1],['location','Localización','text'],['notes','Notas','textarea'],['stockTarget','Stock objetivo','number'],['stockCurrent','Stock actual','number']],
